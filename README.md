@@ -59,11 +59,14 @@ pip install ultralytics opencv-python
 <br>
 <em>图：道路场景行人与车辆检测结果</em>
 </p>
-视频检测效果
+### 视频检测效果
 <p align="center">
-<a href="https://github.com/colebeler/szu_yolov8n_experiment/blob/master/video.mp4">
-点击查看视频检测结果
-</a>
+  <video src="https://github.com/colebeler/szu_yolov8n_experiment/blob/master/video.mp4?raw=true" width="700" controls>
+    你的浏览器不支持视频播放，请直接点击链接查看视频：
+    <a href="https://github.com/colebeler/szu_yolov8n_experiment/blob/master/video.mp4">视频检测结果</a>
+  </video>
+  <br>
+  <em>视频：道路场景行人与车辆检测结果</em>
 </p>
 
 ---
