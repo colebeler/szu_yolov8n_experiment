@@ -51,6 +51,7 @@ pip install ultralytics opencv-python
 最终	1.15629	0.81950	0.87795
 
 模型训练收敛稳定，定位与分类损失持续下降，最终 mAP@0.5 达到 0.87795，检测效果优秀。
+
 ---
 ##🖼️ 检测结果展示
 图片检测效果
@@ -58,15 +59,6 @@ pip install ultralytics opencv-python
 <img src="image.jpg" width="700" alt="图片检测结果示例">
 <br>
 <em>图：道路场景行人与车辆检测结果</em>
-</p>
-### 视频检测效果
-<p align="center">
-  <video src="https://github.com/colebeler/szu_yolov8n_experiment/blob/master/video.mp4?raw=true" width="700" controls>
-    你的浏览器不支持视频播放，请直接点击链接查看视频：
-    <a href="https://github.com/colebeler/szu_yolov8n_experiment/blob/master/video.mp4">视频检测结果</a>
-  </video>
-  <br>
-  <em>视频：道路场景行人与车辆检测结果</em>
 </p>
 
 ---
