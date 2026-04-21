@@ -49,8 +49,11 @@ szu_yolov8n_experiment/
 ## 🧰 环境配置
 
 conda create -n ai_env python=3.8
+
 conda activate ai_env
+
 pip install ultralytics opencv-python
+
 
 ---
 
