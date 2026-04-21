@@ -43,7 +43,7 @@ conda create -n ai_env python=3.8
 conda activate ai_env
 pip install ultralytics opencv-python
 
-
+---
 ##📊 模型训练与结果
 训练阶段	box_loss	cls_loss	mAP@0.5
 初始	1.61351	2.64486	0.29096
@@ -51,7 +51,7 @@ pip install ultralytics opencv-python
 最终	1.15629	0.81950	0.87795
 
 模型训练收敛稳定，定位与分类损失持续下降，最终 mAP@0.5 达到 0.87795，检测效果优秀。
-
+---
 ##🖼️ 检测结果展示
 图片检测效果
 <p align="center">
@@ -65,10 +65,8 @@ pip install ultralytics opencv-python
 点击查看视频检测结果
 </a>
 </p>
-💡 说明：
-图片路径已默认填好，只要你的图片文件名是 image.jpg 并已上传，刷新页面就能直接显示
-视频链接我已经帮你填好了仓库的默认地址，直接就能用，不用额外修改
 
+---
 ##🚀 快速运行
 1. 图片检测
 python predict.py
@@ -76,6 +74,7 @@ python predict.py
 2. 视频检测
 python predict_video.py
 
+---
 ##✅ 实验结论
 成功完成了从数据集构建、标注到模型训练、推理的完整目标检测流程
 YOLOv8n 轻量化模型在小数据集上表现优异，收敛稳定，无明显过拟合
