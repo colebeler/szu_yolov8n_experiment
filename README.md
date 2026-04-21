@@ -38,7 +38,6 @@ szu_yolov8n_experiment/
 ---
 
 ## 🧰 环境配置
-```bash
 conda create -n ai_env python=3.8
 conda activate ai_env
 pip install ultralytics opencv-python
@@ -53,6 +52,7 @@ pip install ultralytics opencv-python
 模型训练收敛稳定，定位与分类损失持续下降，最终 mAP@0.5 达到 0.87795，检测效果优秀。
 
 ---
+
 ##🖼️ 检测结果展示
 图片检测效果
 <p align="center">
@@ -61,7 +61,18 @@ pip install ultralytics opencv-python
 <em>图：道路场景行人与车辆检测结果</em>
 </p>
 
+## 视频检测效果
+<p align="center">
+  <video src="https://github.com/colebeler/szu_yolov8n_experiment/blob/master/video.mp4?raw=true" width="700" controls>
+    你的浏览器不支持视频播放，请直接点击查看：
+    <a href="https://github.com/colebeler/szu_yolov8n_experiment/blob/master/video.mp4">视频检测结果</a>
+  </video>
+  <br>
+  <em>视频：道路场景行人与车辆检测结果</em>
+</p>
+
 ---
+
 ##🚀 快速运行
 1. 图片检测
 python predict.py
@@ -70,6 +81,7 @@ python predict.py
 python predict_video.py
 
 ---
+
 ##✅ 实验结论
 成功完成了从数据集构建、标注到模型训练、推理的完整目标检测流程
 YOLOv8n 轻量化模型在小数据集上表现优异，收敛稳定，无明显过拟合
